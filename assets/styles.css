@@ -1,0 +1,20 @@
+/* Minimal, accessible, responsive CSS */
+* { box-sizing: border-box; }
+html { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.6; }
+body { margin: 0; color: #222; background: #fff; }
+.container { width: min(100% - 2rem, 900px); margin-inline: auto; }
+.site-header, .site-footer { background: #f7f7f7; }
+.site-header .container, .site-footer .container { display: flex; align-items: center; gap: 1rem; padding: .75rem 0; }
+.nav { list-style: none; display: flex; gap: 1rem; padding: 0; margin: 0; }
+.nav a { text-decoration: none; color: #0a58ca; }
+.nav a:focus, .nav a:hover { text-decoration: underline; }
+.flow > * + * { margin-top: 1rem; }
+.lead { font-size: 1.2rem; }
+.skip-link { position: absolute; left: -999px; top: auto; }
+.skip-link:focus { left: 1rem; top: 1rem; background: #000; color: #fff; padding: .5rem; }
+label { display:block; margin:.5rem 0 .25rem; }
+input[type=email] { padding:.5rem; width: 100%; max-width: 22rem; }
+button { padding:.6rem 1rem; cursor: pointer; }
+details { border: 1px solid #eee; padding: .5rem .75rem; border-radius: .25rem; }
+.note { background: #fff2cc; padding: .75rem; border-left: 4px solid #ffd24d; }
+img { max-width: 100%; height: auto; }
