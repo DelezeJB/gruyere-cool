@@ -2,20 +2,47 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
+  <base href="https://delezejb.github.io/gruyere-cool/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>À propos</title>
   <meta name="description" content="Qui suis-je et pourquoi ce site sur le Gruyère d’alpage.">
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/styles.css" as="style">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
   <a class="skip-link" href="#main">Aller au contenu</a>
-  <header class="site-header"><div class="container"><a href="/">Accueil</a></div></header>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <img src="assets/images/logo.svg" alt="Logo Gruyère d’alpage" width="48" height="48" />
+      <nav aria-label="Principale">
+        <ul class="nav">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="histoire.html">Histoire</a></li>
+          <li><a href="degustation.html">Dégustation</a></li>
+          <li><a href="recettes.html">Recettes</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <main id="main" class="container flow">
+
     <h1>À propos</h1>
     <p>Site d’exercice créé par passion pour le Gruyère d’alpage. Aucune publicité ni affiliation.</p>
     <h2>Mentions</h2>
     <p>Éditeur : Jean‑Baptiste Délèze. Contact : <a href="mailto:example@example.com">email</a>.</p>
+
   </main>
-  <footer class="site-footer"><div class="container"><p><a href="/sitemap.xml">Plan du site</a></p></div></footer>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Jean‑Baptiste. <a href="a-propos.html">Mentions</a> — <a href="sitemap.xml">Plan du site</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
 </body>
 </html>

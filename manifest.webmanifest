@@ -1,13 +1,13 @@
 {
   "name": "Gruyère d’alpage — Guide gourmand",
   "short_name": "Gruyère",
-  "start_url": "/",
+  "start_url": "/gruyere-cool/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [
     {
-      "src": "/assets/images/logo.svg",
+      "src": "assets/images/logo.svg",
       "type": "image/svg+xml",
       "sizes": "any"
     }

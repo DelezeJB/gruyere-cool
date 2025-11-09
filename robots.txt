@@ -1,4 +1,3 @@
-# robots.txt
 User-agent: *
 Allow: /
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://delezejb.github.io/gruyere-cool/sitemap.xml
